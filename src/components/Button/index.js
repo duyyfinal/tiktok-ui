@@ -12,6 +12,7 @@ function Button({
     small = false,
     large = false,
     text = false,
+    clasic = false,
     disabled = false,
     rounded = false,
     children,
@@ -22,6 +23,7 @@ function Button({
     ...passProps
 }) {
     let Comp = 'button';
+
     const props = {
         onClick,
         ...passProps,
@@ -47,6 +49,7 @@ function Button({
         small,
         large,
         text,
+        clasic,
         disabled,
         rounded,
         [className]: className,
