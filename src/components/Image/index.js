@@ -4,7 +4,7 @@ import styles from './Image.module.scss';
 import { useState, forwardRef } from 'react';
 import images from '~/assets/images';
 
-const Images = forwardRef(({ src, alt, className, fallback: customFallback = images.noImage, ...props }, ref) => {
+const Image = forwardRef(({ src, alt, className, fallback: customFallback = images.noImage, ...props }, ref) => {
     const [fallback, setFallback] = useState('');
     const handleError = () => {
         setFallback(customFallback);
@@ -22,4 +22,4 @@ const Images = forwardRef(({ src, alt, className, fallback: customFallback = ima
     );
 });
 
-export default Images;
+export default Image;
