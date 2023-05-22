@@ -1,0 +1,131 @@
+.wrapper {
+    border-top: 1px solid #1618231f;
+}
+
+.avatar {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: rgba(136, 136, 136, 0.5);
+    border-color: rgba(22, 24, 35, 0.12);
+    border-width: 0.5px;
+    cursor: pointer;
+    background-color: rgba(136, 136, 136, 0.5);
+}
+.item-info {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.account-item {
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+.nickname {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+.name {
+    font-size: 1.2rem;
+}
+.label {
+    color: #161823bf;
+    padding: 16px 0 0 4px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.checked {
+    margin-left: 4px;
+    font-size: 1.4rem;
+    color: #20d5ec;
+}
+.more-btn {
+    font-size: 1.4rem;
+    color: #fe2c55;
+    padding: 8px;
+    font-weight: 700;
+}
+
+//Mini Info Tippy
+.mini-info {
+    position: relative;
+    width: 320px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+    border-radius: 8px;
+}
+.top-mini-info {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.img-mini-info {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-feature-settings: 'tnum';
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: rgba(136, 136, 136, 0.5);
+    object-fit: cover;
+}
+.nickname-mini-info {
+    color: #161823;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.name-mini-info {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.bottom-info {
+    margin-top: 8px;
+}
+
+.number-follow,
+.number-like {
+    font-weight: 700;
+    margin-right: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.follow-mini-info,
+.like-mini-info {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.follow-mini-info {
+    margin-right: 12px;
+}
